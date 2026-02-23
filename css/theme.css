@@ -1,0 +1,42 @@
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+body.dark .container {
+  background: #1e1e1e;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+}
+
+/* Inputs & Buttons */
+body.dark input,
+body.dark select {
+  background: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #444;
+}
+
+body.dark button {
+  background: #3b3b8f;
+  color: white;
+}
+
+body.dark button:hover {
+  background: #5757c9;
+}
+
+/* Task Items */
+body.dark li {
+  background: #2a2a2a;
+  border: 1px solid #333;
+}
+
+/* Completed Task */
+body.dark li.completed span {
+  opacity: 0.5;
+}
+
+/* Stats */
+body.dark p {
+  color: #ccc;
+}
